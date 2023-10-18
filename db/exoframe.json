@@ -1,0 +1,12 @@
+{
+  "name": "aminaba-message-database",
+  "domain": false,
+  "hostname": "aminaba-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "@aminaba-postgres-password"
+  },
+  "volumes": ["aminaba_message_database_volume:/var/lib/postgresql/data"]
+}
+
+

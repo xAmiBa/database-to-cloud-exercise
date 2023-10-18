@@ -1,0 +1,10 @@
+{
+  "name": "aminaba-message-web",
+  "domain": "aminaba-messages.xf.mkrs.link",
+  "port": 5000,
+  "env": {
+    "APP_ENV": "PRODUCTION",
+    "POSTGRES_HOSTNAME": "aminaba-message-database",
+    "POSTGRES_PASSWORD": "@aminaba-postgres-password"
+  }
+}
